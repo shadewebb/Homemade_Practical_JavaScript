@@ -1,0 +1,93 @@
+/* Variables */
+
+:root {
+    --pageFont: "Lato", sans-serif;
+
+    --primaryColor: #0a0a2e;
+    --pairColor: #ffffff;
+    --secondaryColor: #1e2040;
+    --secondaryPairColor: #f5f6f7;
+    --accentLightBlue: #99c9ff;
+    --accentLightGreen: #acd157;
+    --accentDarkBlue: #002ead;
+    --accentDarkGreen: #00471b;
+}
+
+/* Universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: var(--pageFont);
+    box-sizing: border-box;
+}
+
+/* Blocks */
+
+.wrapper {
+    min-width: 320px;
+    margin: auto;
+    background-color: var(--accentLightBlue);
+}
+.header {
+    text-align: center;
+    min-height: 30vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main {
+    background-color: var(--secondaryColor);
+    min-height: 70vh;
+}
+.content {
+    max-width: 50vw;
+    min-width: 320px;
+    margin: auto;
+    padding-top: 10vh;
+}
+.add-todo {
+    text-align: center;
+}
+.todo-list {
+    color: var(--secondaryPairColor);
+    list-style-type: none;
+    margin-top: 5vh;
+    font-size: 1.5rem;
+}
+
+/* Elements */
+
+.header__title {
+    font-size: calc(2rem + 1vw);
+    font-weight: 700;
+    color: var(--primaryColor);
+}
+.header__subtitle {
+    font-size: calc(1.8rem + 1vw);
+    font-weight: 400;
+    color: var(--primaryColor);
+}
+.add-todo__input {
+    width: 80%;
+    min-width: 300px;
+    padding: 10px 20px;
+    line-height: 1.75rem;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0;
+    background-color: var(--accentLightBlue);
+    color: var(--primaryColor);
+    font-size: 1.5rem;
+}
+.add-todo__button {
+    width: 10%;
+    border: none;
+    background-color: var(--secondaryColor);
+    color: var(--secondaryPairColor);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 2%;
+}

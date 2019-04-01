@@ -1,7 +1,13 @@
+VERSION 2
+    4   it should have a completed method
+
+    DONE!
+        1   it should have an HTML page to start adding user input
+        2   it should have HTML input and submit for addTodos
+        3   it should have an HTML list for todos array
+
+
 VERSION 1
-
-
-
 
     DONE!
         1   It should have an object for todos

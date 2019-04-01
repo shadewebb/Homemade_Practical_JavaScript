@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
 
-<script src="script.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Decluttered - Todo List</title>
+  <link href="main.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header class="header">
+      <h1 class="header__title">Decluttered</h1>
+      <h2 class="header__subtitle">Todo List</h2>
+    </header>
+
+    <main class="main">
+      <div class="content">
+
+        <form class="add-todo">
+          <input class="add-todo__input" type="text" placeholder="Add your task here" required>
+          <button class="add-todo__button" type="submit">Submit</button>
+        </form>
+
+        <ul class="todo-list">
+        </ul>
+
+      </div>
+    </main>
+
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
