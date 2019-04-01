@@ -28,7 +28,7 @@
 .wrapper {
     min-width: 320px;
     margin: auto;
-    background-color: var(--accentLightBlue);
+    background-color: #fff;
 }
 .header {
     text-align: center;
@@ -37,9 +37,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: var(--accentLightBlue);
 }
 .main {
-    background-color: var(--secondaryColor);
     min-height: 70vh;
 }
 .content {
@@ -52,7 +52,6 @@
     text-align: center;
 }
 .todo-list {
-    color: var(--secondaryPairColor);
     list-style-type: none;
     margin-top: 5vh;
     font-size: 1.5rem;
@@ -78,15 +77,14 @@
     border-radius: 10px;
     border: 0;
     box-shadow: 0;
-    background-color: var(--accentLightBlue);
     color: var(--primaryColor);
     font-size: 1.5rem;
+    box-shadow: 0 4px 12px -5px;
 }
 .add-todo__button {
     width: 10%;
     border: none;
-    background-color: var(--secondaryColor);
-    color: var(--secondaryPairColor);
+    background-color: #fff;
     font-size: 1.5rem;
     font-weight: 400;
     margin-left: 2%;
