@@ -1,7 +1,4 @@
-# Homemade_Practical_JavaScript
-Writing the Todo List App from Watch and Code: Practical JavaScript lesson from scratch
-
-These are my notes on writing this app from scratch without referencing the lesson plan, previous program, and only performing research and forum posts.
+#### These are my notes on writing this app from scratch without referencing the lesson plan, previous program, and only performing research and forum posts.
 
 # Version 1
 
