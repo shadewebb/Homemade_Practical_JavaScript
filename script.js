@@ -4,21 +4,24 @@ const todoList = {
     todos: [],
     displayTodos: function () {
         this.todos.forEach(element => console.log(element));
+        console.log('');
     },
     addTodos: function (todoText) {
-        this.todos.push(todoText);
+        let completed = false;
+        this.todos.push({todoText, completed});
         this.displayTodos();
-        console.log('');
     },
     changeTodos: function (value, position) {
-        this.todos[position] = value;
+        this.todos[position].todoText = value;
         this.displayTodos();
-        console.log('');
     },
     deleteTodos: function (position) {
         this.todos.splice(position, 1);
         this.displayTodos();
-        console.log('');
+    },
+    completedTodo: function (position) {
+        this.todos[position].completed = true;
+        this.displayTodos();
     }
 };
 
@@ -28,3 +31,8 @@ todoList.addTodos('testing again');
 todoList.changeTodos('I want to change value 1', 0);
 
 todoList.deleteTodos(1);
+
+todoList.completedTodo(0);
+
+//I want to be able to toggle a todo as completed or not
+//I want to display if a todo is completed or not
