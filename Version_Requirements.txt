@@ -1,5 +1,6 @@
 VERSION 2
     4   it should have a completed method
+    5   Add color gradients per flat design 2.0
 
     DONE!
         1   it should have an HTML page to start adding user input
